@@ -1,10 +1,3 @@
-* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-
-}
-
 
 body {
 	font-family: 'Poppins', sans-serif;
@@ -18,7 +11,8 @@ h2{
 	display: flex;
 	color: #20B2AA;
 	font-size: 1.5rem;
-	margin-left: 35%;
+	margin-top: 30px;
+	margin-left: 10px;
 }
 
 h4{
@@ -27,7 +21,7 @@ h4{
 
 header {
 	display: flex;
-	width: 90%;
+	width: 95%;
 	height: 10vh;
 	margin: auto;
 	align-items: center;
@@ -45,6 +39,15 @@ header {
 	font-weight: 400;
 	margin: 5px;
 
+}
+
+.logout{
+	display: flex;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
 }
 nav {
 	flex: 0.1;
@@ -68,3 +71,49 @@ html{
 	background-size: 100%;
 }
 
+.barre_nav{
+	display: flex;
+	flex-direction: row;
+	padding: 150px;
+}
+
+li{
+	display: flex;
+	padding-left: 40px;
+}
+
+.search_button{
+	display: flex;
+	padding: 5px;
+	margin-top: 20px;
+	transform: translate(-50%, -50%);
+	border-radius: 2em;
+}
+
+#searching
+{
+	border: 3px solid #32e17c;
+	height: 40px;
+	width: 200px;
+	padding: 0px 10px;
+}
+
+form{
+	display: flex;
+	flex-direction: row;
+}
+
+.btn{
+	margin-right: 20px;
+	height: 40px;
+	border-radius: 2em;
+	text-decoration: none;
+	margin-left: -60px;
+}
+
+i{
+	display: flex;
+	margin-left: 12px;
+	margin-top: 12px;
+	color: #fff;
+}

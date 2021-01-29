@@ -1,0 +1,70 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a{
+	font-family: 'Poppins', sans-serif;
+}
+
+h2{
+	display: flex;
+	color: #20B2AA;
+	font-size: 1.5rem;
+	margin-left: 35%;
+}
+
+h4{
+	color: #FFF;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container, .navigation-links, .easter-egg{
+	display: flex;	
+
+}
+.logo-container {
+	flex: 1;
+}
+
+.logo{
+	font-weight: 400;
+	margin: 5px;
+
+}
+nav {
+	flex: 0.1;
+}
+
+.navigation-links{
+	justify-content: space-around;
+	list-style: none;
+}
+
+.navigation-link{
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+
+html{
+	background-image: url(../images/Foreignum_wallpaper.png);
+	background-size: 100%;
+}
+

@@ -3,6 +3,6 @@
 	
 	if(session_destroy()) 
 	{
-		header("Location: index.php");
+		header("Location: view/accueil.php");
 	}
 ?>

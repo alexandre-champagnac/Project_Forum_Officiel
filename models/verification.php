@@ -1,17 +1,17 @@
-<?php
-session_start();
+	<?php
+
 $username = stripcslashes($_REQUEST['username']);
 $password = stripcslashes($_REQUEST['password']);
 
-$reponse = $bdd->query("SELECT * FROM utilisateur WHERE pseudo='$username' and password='".hash('sha1',$password)."'");
+$reponse = $bdd->query("SELECT * FROM utilisateurs WHERE pseudo='$username' and password='".hash('sha1',$password)."'");
 $result = $reponse->fetch();
 
 if($result==true){
 	$_SESSION['username'] = $username;
-	header("Location: index.php");
+	header("Location: view/accueil.php");
 }
 else {
-	header("location: view/login.php");
+	header("Location: ../view/login.php");
 }
 
 

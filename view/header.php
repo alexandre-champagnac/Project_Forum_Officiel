@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="../view/style_header.css">
+		<link rel="stylesheet" type="text/css" href="style_header.css">
 	</head>
     <body>
         <header>
@@ -13,7 +13,7 @@
 				if (isset($_SESSION['username'])){ ?>
 					<div>
 						<h2><?php echo "Bienvenue sur le forum : " . $_SESSION['username']; ?> </h2>
-				 		<a href="deconnexion.php" > <input type="button" value="Deconnexion" class="logout"></a>;
+				 		<a href="../deconnexion.php" > <input type="button" value="Deconnexion" class="logout"></a>;
 				 	</div>
 		<div class="nav_head">
 			<nav class="barre_nav">
@@ -25,7 +25,7 @@
 	                <li ><a class="navigation-link" href="#">Accueil</a></li>
 	                <li ><a class="navigation-link" href="login.php">Login/Register</a></li>
 	                <li ><a class="navigation-link" href="mail.php">Contact</a></li>    
-	    			<li ><a class="navigation-link" href="view/addPost.php">MP</a></li>
+	    			<li ><a class="navigation-link" href="addPost.php">MP</a></li>
 
 	            </ul>
 	        </nav>
@@ -45,7 +45,7 @@
 			</div>
 			<nav>
 				<ul class="navigation-links">
-					<li ><a class="navigation-link" href="view/login.php">Se connecter</a></li>
+					<li ><a class="navigation-link" href="login.php">Se connecter</a></li>
 				</ul>
 			</nav>
 

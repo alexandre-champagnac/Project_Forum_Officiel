@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-6 login-right">
             <h2>S'inscrire</h2>
-            <form action="registration.php" method="post">
+            <form action="../models/registration" method="post">
                 <div class="form-group">
                 <label>Nom d'utilisateur</label>
                 <input type="text" name="username" class="form-control" required>
